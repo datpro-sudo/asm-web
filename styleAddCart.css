@@ -1,0 +1,28 @@
+/* Nút Add to Cart */
+.btn-add-to-cart {
+  background-color: #28a745; /* Màu nền xanh lá */
+  color: white; /* Màu chữ trắng */
+  padding: 10px 15px; /* Khoảng cách trong */
+  font-size: 16px; /* Cỡ chữ */
+  border: none; /* Xóa viền */
+  border-radius: 5px; /* Bo tròn góc */
+  cursor: pointer; /* Con trỏ dạng nút */
+  transition: all 0.3s ease; /* Hiệu ứng khi hover */
+  display: inline-block; /* Đảm bảo nút nằm bên cạnh nhau */
+  margin-top: 10px; /* Thêm khoảng cách trên nút */
+  margin-left: 15px; /* Tạo khoảng cách giữa nút Add to Cart và nút View Details */
+}
+
+/* Hiệu ứng khi rê chuột cho nút Add to Cart */
+.btn-add-to-cart:hover {
+  background-color: #218838; /* Đổi màu nền khi hover */
+  transform: translateY(-2px); /* Dịch chuyển nhẹ */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+}
+
+/* Hiệu ứng khi nhấn cho nút Add to Cart */
+.btn-add-to-cart:active {
+  background-color: #1e7e34; /* Màu nền khi nhấn */
+  transform: translateY(0); /* Quay lại vị trí gốc */
+  box-shadow: none; /* Xóa bóng khi nhấn */
+} /* Nút Add to Cart trong modal */

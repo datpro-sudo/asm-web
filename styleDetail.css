@@ -1,0 +1,125 @@
+/* Nút chi tiết sản phẩm */
+.btn-details {
+  background-color: #4a90e2; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  padding: 10px 15px; /* Khoảng cách trong */
+  font-size: 16px; /* Cỡ chữ */
+  border: none; /* Xóa viền */
+  border-radius: 5px; /* Bo tròn góc */
+  cursor: pointer; /* Con trỏ dạng nút */
+  transition: all 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+/* Hiệu ứng khi rê chuột */
+
+
+.modal-container {
+  display: none; /* Ban đầu không hiển thị */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Màu nền mờ tối */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Đảm bảo modal nằm trên các phần tử khác */
+}
+
+/* Modal */
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px; /* Đặt độ rộng tối đa của modal */
+  width: 90%; /* Đảm bảo modal có thể co giãn */
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút đóng */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ff0000; /* Đổi màu khi hover */
+}
+
+/* Hình ảnh trong modal */
+#modal-image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Tiêu đề sản phẩm */
+#modal-title {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Mô tả sản phẩm */
+#modal-description {
+  font-size: 1.1em;
+  color: #eab122dc;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Giá sản phẩm */
+#modal-price {
+  font-size: 1.2em;
+  color: #28a745; /* Màu xanh lá cho giá */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Số lượng sản phẩm */
+#modal-quantity {
+  font-size: 1.1em;
+  color: #dc3545; /* Màu đỏ cho số lượng */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Nhà cung cấp */
+#modal-supplier {
+  font-size: 1.1em;
+  color: #007bff; /* Màu xanh dương cho nhà cung cấp */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Thêm nút đóng bên dưới */
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #0056b3; /* Đổi màu khi hover */
+}
